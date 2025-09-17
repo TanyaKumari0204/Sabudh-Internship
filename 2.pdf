@@ -1,0 +1,4 @@
+Error Rates: h1 = 6.67%, h2 = 8.89%, h3 = 13.3%, Sample size = 45. 
+Standard Error for Difference: SE = √[(p1(1 − p1)/n) + (p2(1 − p2)/n)]. 
+Confidence for h2 vs h1: SE ≈ 0.058, z = (0.0889 − 0.0667)/0.058 ≈ 0.38 → Low confidence. Confidence for h3 vs h1: SE ≈ 0.065, z = (0.133 − 0.0667)/0.065 ≈ 1.02 → Moderate confidence. 
+Answer: You have higher confidence that h3 performs worse than h1 compared to h2. Confidence for h2 < h1 is low, while confidence for h3 < h1 is moderate.

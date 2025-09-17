@@ -1,0 +1,8 @@
+Given: Test set size = 45, Observed error rate = 6.67% = 0.0667, Confidence level = 95% → z = 1.96.
+Formula: CI = p̂ ± z × √[p̂(1 − p̂)/n], where p̂ = 0.0667, n = 45, z = 1.96. 
+Calculation: SE = √[0.0667 × (1 − 0.0667)/45] ≈ 0.037; CI = 0.0667 ± 1.96 × 0.037 ≈ 0.0667 ± 0.0725. 
+Answer: The 95% confidence interval for the true error is approximately [0%, 13.92%].
+
+
+
+

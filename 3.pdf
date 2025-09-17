@@ -1,0 +1,4 @@
+Paired t-test setup: Differences in error rates (Favourite − Decision Tree) = [−0.41, 0.04, −0.99, 0.35, 0.14, −0.78, −0.46, 0.56, 0.00, 0.03]. 
+Mean difference ≈ −0.152, Standard deviation ≈ 0.45. t-statistic: t = −0.152 / (0.45 / √10) ≈ −1.07. 
+Degrees of freedom = 9, Critical t-value for 95% confidence ≈ 2.26. 
+Answer: Since |t| < 2.26, you cannot be confident at the 95% level that your favourite algorithm outperforms the decision tree. Confidence level is low.

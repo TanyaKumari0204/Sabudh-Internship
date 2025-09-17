@@ -1,0 +1,21 @@
+Perfect classifier: TPR = 1, FPR = 0. TPR and FPR for each hypothesis:
+
+h1: TPR = 29/31 ≈ 0.935, FPR = 1/14 ≈ 0.071
+
+h2: TPR = 29/30 ≈ 0.967, FPR = 3/15 = 0.2
+
+h3: TPR = 27/30 = 0.9, FPR = 3/15 = 0.2 Distance (Equal Cost):
+
+h1 ≈ √[(1 − 0.935)² + (0.071)²] ≈ 0.088
+
+h2 ≈ √[(1 − 0.967)² + (0.2)²] ≈ 0.203
+
+h3 ≈ √[(1 − 0.9)² + (0.2)²] ≈ 0.224 Weighted Distance (FP ×4):
+
+h1 ≈ √[(1 − 0.935)² + (4 × 0.071)²] ≈ 0.29
+
+h2 ≈ √[(1 − 0.967)² + (4 × 0.2)²] ≈ 0.81
+
+h3 ≈ √[(1 − 0.9)² + (4 × 0.2)²] ≈ 0.82
+
+Answer: h1 is the best classifier under both equal cost and weighted cost scenarios.
